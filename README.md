@@ -1,4 +1,4 @@
-# builder-elm-0.19-node-11-with-cache
+# builder-elm-0.19-node-12-with-cache
 
 Docker build container
 
@@ -16,7 +16,7 @@ Docker build container
 
    ```bash
    # compatibility: both for bash and fish
-   bash -c 'docker build -t goldenfoil/builder-elm-0.19-node-11-with-cache:latest goldenfoil/builder-elm-0.19-node-11-with-cache:$(git log -1 --pretty=%h) .'
+   bash -c 'docker build -t goldenfoil/builder-elm-0.19-node-12-with-cache:latest goldenfoil/builder-elm-0.19-node-12-with-cache:$(git log -1 --pretty=%h) .'
 
-   docker push goldenfoil/builder-elm-0.19-node-11-with-cache
+   docker push goldenfoil/builder-elm-0.19-node-12-with-cache
    ```
